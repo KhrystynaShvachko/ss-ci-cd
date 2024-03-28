@@ -10,6 +10,8 @@ public class SimplecrudApplication {
         SpringApplication.run(SimplecrudApplication.class, args);
 
         System.out.println("It's work");
+
+         System.out.println("Test Action from another branch");
     }
 
 }
