@@ -1,0 +1,233 @@
+[
+    {
+        "username": "Artur",
+        "email": "user1@example.com",
+        "password": "paqqord2",
+        "last_login": ISODate("2021-04-19T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Navi",
+                "country": "Ukraine",
+                "website": "www.com.ua",
+                "bio": "log",
+                "created_at": ISODate("2012-01-01T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "We_Dont_Trust",
+                        "release_date": ISODate("2011-09-27T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Starlight Serenade",
+                                "duration": 200,
+                                "release_date": ISODate("2005-08-12T00:00:00Z"),
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Hip-hop",
+                                    "description": "Music genre that combines rhythmic rhymes and poetry. Typically characterized by the use of vernacular speech and cultural influences."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Boni",
+        "email": "user1@exfghe.com",
+        "password": "wwrd2",
+        "last_login": ISODate("2024-05-19T00:00:00Z"),
+        "active": false,
+    },
+   {
+    "username": "Jackson",
+    "email": "ufg1@example.com",
+    "password": "paeerd2",
+    "last_login": ISODate("2024-04-12T00:00:00Z"),
+    "active": true,
+    "artists": [
+        {
+            "artist_name": "Cat",
+            "country": "Spain",
+            "website": "www.codgjtfdhhm.com",
+            "bio": "fog",
+            "created_at": ISODate("1992-12-17T00:00:00Z"),
+            "albums": [
+                {
+                    "album_name": "Guts",
+                    "release_date": ISODate("2018-06-25T00:00:00Z"),
+                    "tracks": [
+                        {
+                            "track_name": "Golden Horizon",
+                            "duration": 180,
+                            "release_date": ISODate("2015-06-10T00:00:00Z"),
+                            "save_file_format": "WAV",
+                            "visibility": false,
+                            "genre": {
+                                "genre_name": "Jazz",
+                                "description": "Improvisational music style that originated in the United States in the late 19th century. Characterized by complex harmonies and rhythms, as well as rich improvisation."
+                            }
+                        },
+                        {
+                            "track_name": "Whispers in the Dark",
+                            "duration": 247,
+                            "release_date": ISODate("2017-01-30T00:00:00Z"),
+                            "save_file_format": "WAV",
+                            "visibility": true,
+                            "genre": {
+                                "genre_name": "Electronic",
+                                "description": "Music created using electronic musical instruments and technology. Encompasses genres such as trance, techno, house, and other electronic subgenres."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "artist_name": "Musit",
+            "country": "USA",
+            "website": "www.jklhgfd.com",
+            "bio": "log",
+            "created_at": ISODate("2003-09-01T00:00:00Z"),
+            "albums": [
+                {
+                    "album_name": "American_Drew",
+                    "release_date": ISODate("1998-03-05T00:00:00Z"),
+                    "tracks": [
+                        {
+                            "track_name": "Sapphire Seas",
+                            "duration": 213,
+                            "release_date": ISODate("2019-10-05T00:00:00Z"),
+                            "save_file_format": "MP3",
+                            "visibility": true,
+                            "genre": {
+                                "genre_name": "Pop",
+                                "description": "Popular music genre often characterized by catchy melodies, simple lyrics, and excellent melodic structure."
+                            }
+                        },
+                        {
+                            "track_name": "Fireside Fantasy",
+                            "duration": 310,
+                            "release_date": ISODate("2003-10-17T00:00:00Z"),
+                            "save_file_format": "MP3",
+                            "visibility": false,
+                            "genre": {
+                                "genre_name": "Rock",
+                                "description": "Energetic genre that emerged in the latter half of the 20th century. Encompasses a wide range of styles from classic rock to heavy metal and punk rock."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+    {
+        "username": "Marta",
+        "email": "user1@euuule.com",
+        "password": "prrord2",
+        "last_login": ISODate("2000-04-19T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Jack",
+                "country": "USA",
+                "website": "www.yjjjjjjn.com",
+                "bio": "tog",
+                "created_at": ISODate("2011-03-30T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Tomorrow",
+                        "release_date": ISODate("2019-01-05T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Whispering Winds",
+                                "duration": 250,
+                                "release_date": ISODate("2012-04-25T00:00:00Z"),
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Folk",
+                                    "description": "Genre that encompasses traditional music originating from a particular region or culture. Often characterized by its simplicity, acoustic instrumentation, and storytelling lyrics."
+                                }
+                            },
+                            {
+                                "track_name": "Silver Lining",
+                                "duration": 270,
+                                "release_date": ISODate("2000-05-29T00:00:00Z"),
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Rhythm and Blues",
+                                    "description": "Genre that originated in African American communities in the 1940s. Combines elements of jazz, blues, and gospel music, often featuring soulful vocals and rhythmic instrumentation."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Kristina",
+        "email": "user1@yyle.com",
+        "password": "pttrd2",
+        "last_login": ISODate("2024-09-11T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Sock",
+                "country": "Ukraine",
+                "website": "www.cothjtm.ua",
+                "bio": "fog",
+                "created_at": ISODate("1988-09-11T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Hope_On_The_Street",
+                        "release_date": ISODate("2023-05-06T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Moonlit Dance",
+                                "duration": 300,
+                                "release_date": ISODate("1999-11-07T00:00:00Z"),
+                                "save_file_format": "AAC",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Classical",
+                                    "description": "Music genre that encompasses a broad range of styles and periods, typically characterized by its formal structure, instrumentation, and emphasis on notation."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Maks",
+        "email": "uyyr1@example.com",
+        "password": "yyrd2",
+        "last_login": ISODate("1992-05-29T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Mavi",
+                "country": "England",
+                "website": "www.cgkom.com",
+                "bio": "tog",
+                "created_at": ISODate("2013-05-06T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Insano",
+                        "release_date": ISODate("2023-11-12T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Sunrise Sonata",
+                                "duration": 240,
+                                "release_date": ISODate("2018-09-30T00:00:00Z"),
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                   
