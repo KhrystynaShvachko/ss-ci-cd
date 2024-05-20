@@ -1,4 +1,4 @@
-[
+db.users.insertMany([
     {
         "username": "Artur",
         "email": "user1@example.com",
@@ -35,95 +35,84 @@
         ]
     },
     {
-        "username": "Boni",
-        "email": "user1@exfghe.com",
-        "password": "wwrd2",
-        "last_login": ISODate("2024-05-19T00:00:00Z"),
-        "active": false,
+    "username": "Boni",
+    "email": "user1@exfghe.com",
+    "password": "wwrd2",
+    "last_login": ISODate("2024-05-19T00:00:00Z"),
+    "active": false,
     },
-   {
-    "username": "Jackson",
-    "email": "ufg1@example.com",
-    "password": "paeerd2",
-    "last_login": ISODate("2024-04-12T00:00:00Z"),
-    "active": true,
-    "artists": [
-        {
-            "artist_name": "Cat",
-            "country": "Spain",
-            "website": "www.codgjtfdhhm.com",
-            "bio": "fog",
-            "created_at": ISODate("1992-12-17T00:00:00Z"),
-            "albums": [
-                {
-                    "album_name": "Guts",
-                    "release_date": ISODate("2018-06-25T00:00:00Z"),
-                    "tracks": [
-                        {
-                            "track_name": "Golden Horizon",
-                            "duration": 180,
-                            "release_date": ISODate("2015-06-10T00:00:00Z"),
-                            "save_file_format": "WAV",
-                            "visibility": false,
-                            "genre": {
-                                "genre_name": "Jazz",
-                                "description": "Improvisational music style that originated in the United States in the late 19th century. Characterized by complex harmonies and rhythms, as well as rich improvisation."
+    {
+        "username": "Jackson",
+        "email": "ufg1@example.com",
+        "password": "paeerd2",
+        "last_login": ISODate("2024-04-12T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Pava",
+                "country": "USA",
+                "website": "www.cfhjom.com",
+                "bio": "tog",
+                "created_at": ISODate("2011-11-12T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Shadows",
+                        "release_date": ISODate("2015-05-20T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Echoes of Time",
+                                "duration": 220,
+                                "release_date": ISODate("2014-08-10T00:00:00Z"),
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Ambient",
+                                    "description": "A genre of music that emphasizes tone and atmosphere over traditional musical structure or rhythm."
+                                }
                             }
-                        },
-                        {
-                            "track_name": "Whispers in the Dark",
-                            "duration": 247,
-                            "release_date": ISODate("2017-01-30T00:00:00Z"),
-                            "save_file_format": "WAV",
-                            "visibility": true,
-                            "genre": {
-                                "genre_name": "Electronic",
-                                "description": "Music created using electronic musical instruments and technology. Encompasses genres such as trance, techno, house, and other electronic subgenres."
+                        ]
+                    }
+                ]
+            },
+            {
+                "artist_name": "Cat",
+                "country": "Spain",
+                "website": "www.codgjtfdhhm.com",
+                "bio": "fog",
+                "created_at": ISODate("1992-12-17T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Guts",
+                        "release_date": ISODate("2018-06-25T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Golden Horizon",
+                                "duration": 180,
+                                "release_date": ISODate("2015-06-10T00:00:00Z"),
+                                "save_file_format": "WAV",
+                                "visibility": false,
+                                "genre": {
+                                    "genre_name": "Jazz",
+                                    "description": "Improvisational music style that originated in the United States in the late 19th century. Characterized by complex harmonies and rhythms, as well as rich improvisation."
+                                }
+                            },
+                            {
+                                "track_name": "Whispers in the Dark",
+                                "duration": 247,
+                                "release_date": ISODate("2017-01-30T00:00:00Z"),
+                                "save_file_format": "WAV",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Electronic",
+                                    "description": "Music created using electronic musical instruments and technology. Encompasses genres such as trance, techno, house, and other electronic subgenres."
+                                }
                             }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "artist_name": "Musit",
-            "country": "USA",
-            "website": "www.jklhgfd.com",
-            "bio": "log",
-            "created_at": ISODate("2003-09-01T00:00:00Z"),
-            "albums": [
-                {
-                    "album_name": "American_Drew",
-                    "release_date": ISODate("1998-03-05T00:00:00Z"),
-                    "tracks": [
-                        {
-                            "track_name": "Sapphire Seas",
-                            "duration": 213,
-                            "release_date": ISODate("2019-10-05T00:00:00Z"),
-                            "save_file_format": "MP3",
-                            "visibility": true,
-                            "genre": {
-                                "genre_name": "Pop",
-                                "description": "Popular music genre often characterized by catchy melodies, simple lyrics, and excellent melodic structure."
-                            }
-                        },
-                        {
-                            "track_name": "Fireside Fantasy",
-                            "duration": 310,
-                            "release_date": ISODate("2003-10-17T00:00:00Z"),
-                            "save_file_format": "MP3",
-                            "visibility": false,
-                            "genre": {
-                                "genre_name": "Rock",
-                                "description": "Energetic genre that emerged in the latter half of the 20th century. Encompasses a wide range of styles from classic rock to heavy metal and punk rock."
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     {
         "username": "Marta",
         "email": "user1@euuule.com",
@@ -132,11 +121,11 @@
         "active": true,
         "artists": [
             {
-                "artist_name": "Jack",
-                "country": "USA",
-                "website": "www.yjjjjjjn.com",
-                "bio": "tog",
-                "created_at": ISODate("2011-03-30T00:00:00Z"),
+                "artist_name": "Hasan",
+                "country": "Spain",
+                "website": "www.hhgttfcom.com",
+                "bio": "fog",
+                "created_at": ISODate("1998-07-09T00:00:00Z"),
                 "albums": [
                     {
                         "album_name": "Tomorrow",
@@ -171,39 +160,11 @@
         ]
     },
     {
-        "username": "Kristina",
-        "email": "user1@yyle.com",
-        "password": "pttrd2",
-        "last_login": ISODate("2024-09-11T00:00:00Z"),
-        "active": true,
-        "artists": [
-            {
-                "artist_name": "Sock",
-                "country": "Ukraine",
-                "website": "www.cothjtm.ua",
-                "bio": "fog",
-                "created_at": ISODate("1988-09-11T00:00:00Z"),
-                "albums": [
-                    {
-                        "album_name": "Hope_On_The_Street",
-                        "release_date": ISODate("2023-05-06T00:00:00Z"),
-                        "tracks": [
-                            {
-                                "track_name": "Moonlit Dance",
-                                "duration": 300,
-                                "release_date": ISODate("1999-11-07T00:00:00Z"),
-                                "save_file_format": "AAC",
-                                "visibility": true,
-                                "genre": {
-                                    "genre_name": "Classical",
-                                    "description": "Music genre that encompasses a broad range of styles and periods, typically characterized by its formal structure, instrumentation, and emphasis on notation."
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+    "username": "Kristina",
+    "email": "user1@yyle.com",
+    "password": "pttrd2",
+    "last_login": ISODate("2024-09-11T00:00:00Z"),
+    "active": true,
     },
     {
         "username": "Maks",
@@ -230,4 +191,211 @@
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
+                                    "genre_name": "Electronic",
+                                    "description": "Music created using electronic musical instruments and technology. Encompasses genres such as trance, techno, house, and other electronic subgenres."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "artist_name": "Dodi",
+                "country": "Spain",
+                "website": "www.cogfjhm.com",
+                "bio": "log",
+                "created_at": ISODate("2017-06-29T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Mystic Waters",
+                        "release_date": ISODate("2022-08-18T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Serenade of the Seas",
+                                "duration": 320,
+                                "release_date": ISODate("2021-03-22T00:00:00Z"),
+                                "save_file_format": "FLAC",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Ambient",
+                                    "description": "A genre of music that emphasizes tone and atmosphere over traditional musical structure or rhythm."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Olga",
+        "email": "user1@exuue.com",
+        "password": "puiuyord2",
+        "last_login": ISODate("2021-07-19T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Jack",
+                "country": "USA",
+                "website": "www.yjjjjjjn.com",
+                "bio": "tog",
+                "created_at": ISODate("2011-03-30T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Insano",
+                        "release_date": ISODate("2023-11-12T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Raging Storm",
+                                "duration": 200,
+                                "release_date": ISODate("2023-09-01T00:00:00Z"),
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Metal",
+                                    "description": "A genre of rock music characterized by heavy use of distorted guitars, extended guitar solos, emphatic beats, and loudness."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Bob",
+        "email": "user1@ekkle.com",
+        "password": "pajufrd2",
+        "last_login": ISODate("2024-09-18T00:00:00Z"),
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Iodo",
+                "country": "Ukraine",
+                "website": "www.cdswqadom.ua",
+                "bio": "fog",
+                "created_at": ISODate("1999-07-16T00:00:00Z"),
+                "albums": [
+                    {
+                        "album_name": "Hope_On_The_Street",
+                        "release_date": ISODate("2023-05-06T00:00:00Z"),
+                        "tracks": [
+                            {
+                                "track_name": "Moonlit Dance",
+                                "duration": 300,
+                                "release_date": ISODate("1999-11-07T00:00:00Z"),
+                                "save_file_format": "AAC",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Classical",
+                                    "description": "Music genre that encompasses a broad range of styles and periods, typically characterized by its formal structure, instrumentation, and emphasis on notation."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Marly",
+        "email": "user1@exjje.com",
+        "password": "plfgggrd2",
+        "last_login": "2021-11-19T00:00:00Z",
+        "active": false
+    },
+    {
+        "username": "Charly",
+        "email": "user1@exhhe.com",
+        "password": "pyjytkord2",
+        "last_login": "2012-12-19T00:00:00Z",
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Jfhhj",
+                "country": "Ukraine",
+                "website": "www.llljjhhgfcom.ua",
+                "bio": "tog",
+                "created_at": "2014-08-01T00:00:00Z",
+                "albums": [
+                    {
+                        "album_name": "Dreamland",
+                        "release_date": "2018-10-15T00:00:00Z",
+                        "tracks": [
+                            {
+                                "track_name": "Whispering Wind",
+                                "duration": 240,
+                                "release_date": "2018-10-15T00:00:00Z",
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Ambient",
+                                    "description": "A genre of music that emphasizes tone and atmosphere over traditional musical structure or rhythm."
+                                }
+                            },
+                            {
+                                "track_name": "River's Edge",
+                                "duration": 210,
+                                "release_date": "2018-10-15T00:00:00Z",
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Ambient",
+                                    "description": "A genre of music that emphasizes tone and atmosphere over traditional musical structure or rhythm."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "username": "Jack",
+        "email": "uyyyyr1@example.com",
+        "password": "pgkjrd2",
+        "last_login": "2013-06-18T00:00:00Z",
+        "active": true,
+        "artists": [
+            {
+                "artist_name": "Townis",
+                "country": "Ukraine",
+                "website": "www.coandam.ua",
+                "bio": "tog",
+                "created_at": "2020-01-09T00:00:00Z",
+                "albums": [
+                    {
+                        "album_name": "The Journey Begins",
+                        "release_date": "2021-03-25T00:00:00Z",
+                        "tracks": [
+                            {
+                                "track_name": "New Horizons",
+                                "duration": 300,
+                                "release_date": "2021-03-25T00:00:00Z",
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Electronic",
+                                    "description": "Music created using electronic musical instruments and technology. Encompasses genres such as trance, techno, house, and other electronic subgenres."
+                                }
+                            },
+                            {
+                                "track_name": "The Path Ahead",
+                                "duration": 270,
+                                "release_date": "2021-03-25T00:00:00Z",
+                                "save_file_format": "MP3",
+                                "visibility": true,
+                                "genre": {
+                                    "genre_name": "Electronic",
+                                    "description": "Music created using electronic musical instruments and technology. Encompasses genres such as trance, techno, house, and other electronic subgenres."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]);
+    
                                    
