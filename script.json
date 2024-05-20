@@ -3,7 +3,7 @@ db.users.insertMany([
         "username": "Artur",
         "email": "user1@example.com",
         "password": "paqqord2",
-        "last_login": ISODate("2021-04-19T00:00:00Z"),
+        "last_login": "2021-04-19",
         "active": true,
         "artists": [
             {
@@ -11,16 +11,16 @@ db.users.insertMany([
                 "country": "Ukraine",
                 "website": "www.com.ua",
                 "bio": "log",
-                "created_at": ISODate("2012-01-01T00:00:00Z"),
+                "created_at": "2012-01-01",
                 "albums": [
                     {
                         "album_name": "We_Dont_Trust",
-                        "release_date": ISODate("2011-09-27T00:00:00Z"),
+                        "release_date": "2011-09-27",
                         "tracks": [
                             {
                                 "track_name": "Starlight Serenade",
                                 "duration": 200,
-                                "release_date": ISODate("2005-08-12T00:00:00Z"),
+                                "release_date": "2005-08-12",
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
@@ -38,14 +38,14 @@ db.users.insertMany([
     "username": "Boni",
     "email": "user1@exfghe.com",
     "password": "wwrd2",
-    "last_login": ISODate("2024-05-19T00:00:00Z"),
+    "last_login": "2024-05-19",
     "active": false,
     },
     {
         "username": "Jackson",
         "email": "ufg1@example.com",
         "password": "paeerd2",
-        "last_login": ISODate("2024-04-12T00:00:00Z"),
+        "last_login": "2024-04-12",
         "active": true,
         "artists": [
             {
@@ -53,16 +53,16 @@ db.users.insertMany([
                 "country": "USA",
                 "website": "www.cfhjom.com",
                 "bio": "tog",
-                "created_at": ISODate("2011-11-12T00:00:00Z"),
+                "created_at": "2011-11-12",
                 "albums": [
                     {
                         "album_name": "Shadows",
-                        "release_date": ISODate("2015-05-20T00:00:00Z"),
+                        "release_date": "2015-05-20",
                         "tracks": [
                             {
                                 "track_name": "Echoes of Time",
                                 "duration": 220,
-                                "release_date": ISODate("2014-08-10T00:00:00Z"),
+                                "release_date": "2014-08-10",
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
@@ -79,16 +79,16 @@ db.users.insertMany([
                 "country": "Spain",
                 "website": "www.codgjtfdhhm.com",
                 "bio": "fog",
-                "created_at": ISODate("1992-12-17T00:00:00Z"),
+                "created_at": "1992-12-17",
                 "albums": [
                     {
                         "album_name": "Guts",
-                        "release_date": ISODate("2018-06-25T00:00:00Z"),
+                        "release_date": "2018-06-25",
                         "tracks": [
                             {
                                 "track_name": "Golden Horizon",
                                 "duration": 180,
-                                "release_date": ISODate("2015-06-10T00:00:00Z"),
+                                "release_date": "2015-06-10",
                                 "save_file_format": "WAV",
                                 "visibility": false,
                                 "genre": {
@@ -99,7 +99,7 @@ db.users.insertMany([
                             {
                                 "track_name": "Whispers in the Dark",
                                 "duration": 247,
-                                "release_date": ISODate("2017-01-30T00:00:00Z"),
+                                "release_date": "2017-01-30",
                                 "save_file_format": "WAV",
                                 "visibility": true,
                                 "genre": {
@@ -117,7 +117,7 @@ db.users.insertMany([
         "username": "Marta",
         "email": "user1@euuule.com",
         "password": "prrord2",
-        "last_login": ISODate("2000-04-19T00:00:00Z"),
+        "last_login": "2000-04-19",
         "active": true,
         "artists": [
             {
@@ -125,16 +125,16 @@ db.users.insertMany([
                 "country": "Spain",
                 "website": "www.hhgttfcom.com",
                 "bio": "fog",
-                "created_at": ISODate("1998-07-09T00:00:00Z"),
+                "created_at": "1998-07-09",
                 "albums": [
                     {
                         "album_name": "Tomorrow",
-                        "release_date": ISODate("2019-01-05T00:00:00Z"),
+                        "release_date": "2019-01-05",
                         "tracks": [
                             {
                                 "track_name": "Whispering Winds",
                                 "duration": 250,
-                                "release_date": ISODate("2012-04-25T00:00:00Z"),
+                                "release_date": "2012-04-25",
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
@@ -145,7 +145,7 @@ db.users.insertMany([
                             {
                                 "track_name": "Silver Lining",
                                 "duration": 270,
-                                "release_date": ISODate("2000-05-29T00:00:00Z"),
+                                "release_date": "2000-05-29",
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
@@ -163,14 +163,14 @@ db.users.insertMany([
     "username": "Kristina",
     "email": "user1@yyle.com",
     "password": "pttrd2",
-    "last_login": ISODate("2024-09-11T00:00:00Z"),
+    "last_login": "2024-09-11",
     "active": true,
     },
     {
         "username": "Maks",
         "email": "uyyr1@example.com",
         "password": "yyrd2",
-        "last_login": ISODate("1992-05-29T00:00:00Z"),
+        "last_login": "1992-05-29",
         "active": true,
         "artists": [
             {
@@ -178,16 +178,16 @@ db.users.insertMany([
                 "country": "England",
                 "website": "www.cgkom.com",
                 "bio": "tog",
-                "created_at": ISODate("2013-05-06T00:00:00Z"),
+                "created_at": "2013-05-06",
                 "albums": [
                     {
                         "album_name": "Insano",
-                        "release_date": ISODate("2023-11-12T00:00:00Z"),
+                        "release_date": "2023-11-12",
                         "tracks": [
                             {
                                 "track_name": "Sunrise Sonata",
                                 "duration": 240,
-                                "release_date": ISODate("2018-09-30T00:00:00Z"),
+                                "release_date": "2018-09-30",
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
@@ -204,16 +204,16 @@ db.users.insertMany([
                 "country": "Spain",
                 "website": "www.cogfjhm.com",
                 "bio": "log",
-                "created_at": ISODate("2017-06-29T00:00:00Z"),
+                "created_at": "2017-06-29",
                 "albums": [
                     {
                         "album_name": "Mystic Waters",
-                        "release_date": ISODate("2022-08-18T00:00:00Z"),
+                        "release_date": "2022-08-18",
                         "tracks": [
                             {
                                 "track_name": "Serenade of the Seas",
                                 "duration": 320,
-                                "release_date": ISODate("2021-03-22T00:00:00Z"),
+                                "release_date": "2021-03-22",
                                 "save_file_format": "FLAC",
                                 "visibility": true,
                                 "genre": {
@@ -231,7 +231,7 @@ db.users.insertMany([
         "username": "Olga",
         "email": "user1@exuue.com",
         "password": "puiuyord2",
-        "last_login": ISODate("2021-07-19T00:00:00Z"),
+        "last_login": "2021-07-19",
         "active": true,
         "artists": [
             {
@@ -239,16 +239,16 @@ db.users.insertMany([
                 "country": "USA",
                 "website": "www.yjjjjjjn.com",
                 "bio": "tog",
-                "created_at": ISODate("2011-03-30T00:00:00Z"),
+                "created_at":"2011-03-30",
                 "albums": [
                     {
                         "album_name": "Insano",
-                        "release_date": ISODate("2023-11-12T00:00:00Z"),
+                        "release_date": "2023-11-12",
                         "tracks": [
                             {
                                 "track_name": "Raging Storm",
                                 "duration": 200,
-                                "release_date": ISODate("2023-09-01T00:00:00Z"),
+                                "release_date": "2023-09-01",
                                 "save_file_format": "MP3",
                                 "visibility": true,
                                 "genre": {
@@ -266,7 +266,7 @@ db.users.insertMany([
         "username": "Bob",
         "email": "user1@ekkle.com",
         "password": "pajufrd2",
-        "last_login": ISODate("2024-09-18T00:00:00Z"),
+        "last_login": "2024-09-18",
         "active": true,
         "artists": [
             {
@@ -274,16 +274,16 @@ db.users.insertMany([
                 "country": "Ukraine",
                 "website": "www.cdswqadom.ua",
                 "bio": "fog",
-                "created_at": ISODate("1999-07-16T00:00:00Z"),
+                "created_at": "1999-07-16",
                 "albums": [
                     {
                         "album_name": "Hope_On_The_Street",
-                        "release_date": ISODate("2023-05-06T00:00:00Z"),
+                        "release_date": "2023-05-06",
                         "tracks": [
                             {
                                 "track_name": "Moonlit Dance",
                                 "duration": 300,
-                                "release_date": ISODate("1999-11-07T00:00:00Z"),
+                                "release_date":"1999-11-07",
                                 "save_file_format": "AAC",
                                 "visibility": true,
                                 "genre": {
